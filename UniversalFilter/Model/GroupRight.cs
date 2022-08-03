@@ -1,7 +1,7 @@
 ﻿
 namespace UniversalFilter.Model
 {
-    internal class BoltGroupRight : ExpressionRight
+    public class BoltGroupRight : ExpressionRight
     {
         public BoltGroupRight()
         : base("albl_BoltGroup")
@@ -9,7 +9,7 @@ namespace UniversalFilter.Model
 
         }
     }
-    internal class PartGroupRight : ExpressionRight
+    public class PartGroupRight : ExpressionRight
     {
         public PartGroupRight()
             : base("albl_Part")
@@ -17,7 +17,7 @@ namespace UniversalFilter.Model
 
         }
     }
-    internal class ReferenceGroupRight : ExpressionRight
+    public class ReferenceGroupRight : ExpressionRight
     {
         public ReferenceGroupRight()
             : base("albl_Reference_object")
@@ -25,7 +25,7 @@ namespace UniversalFilter.Model
 
         }
     }
-    internal class FreeSrtingRight : ExpressionRight
+    public class FreeSrtingRight : ExpressionRight
     {
         public FreeSrtingRight(string value)
             : base(value)

@@ -1,7 +1,7 @@
 ﻿
 namespace UniversalFilter.Model
 {
-    internal class TemplateTypeLeft : ExpressionTypeLeft
+    public class TemplateTypeLeft : ExpressionTypeLeft
     {
         public TemplateTypeLeft(string propertyExpression)
             : base("TemplateCategory", propertyExpression, propertyExpression)
@@ -10,7 +10,7 @@ namespace UniversalFilter.Model
         }
 
     }
-    internal class ObjectTypeTypeLeft : ExpressionTypeLeft
+    public class ObjectTypeTypeLeft : ExpressionTypeLeft
     {
         public ObjectTypeTypeLeft()
             : base("co_object", "proOBJECT_TYPE", "albl_ObjectType")
@@ -19,7 +19,7 @@ namespace UniversalFilter.Model
         }
     }
 
-    internal class PartPhaseTypeTypeLeft : ExpressionTypeLeft
+    public class PartPhaseTypeTypeLeft : ExpressionTypeLeft
     {
         public PartPhaseTypeTypeLeft()
             : base("co_part", "proPHASE", "albl_Phase")
@@ -28,7 +28,7 @@ namespace UniversalFilter.Model
         }
     }
 
-    internal class PartClassTypeTypeLeft : ExpressionTypeLeft
+    public class PartClassTypeTypeLeft : ExpressionTypeLeft
     {
         public PartClassTypeTypeLeft()
             : base("co_part", "proCLASS", "albl_Class")
@@ -36,7 +36,7 @@ namespace UniversalFilter.Model
 
         }
     }
-    internal class BoltStandardTypeTypeLeft : ExpressionTypeLeft
+    public class BoltStandardTypeTypeLeft : ExpressionTypeLeft
     {
         public BoltStandardTypeTypeLeft()
             : base("co_bolt", "proSTANDARD", "albl_Standard")
