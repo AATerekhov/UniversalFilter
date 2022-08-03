@@ -1,7 +1,7 @@
 ﻿
 namespace UniversalFilter.Model
 {
-    internal abstract class ExpressionRight
+    public abstract class ExpressionRight
     {
         protected ExpressionRight(string right)
         {

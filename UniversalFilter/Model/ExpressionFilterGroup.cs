@@ -4,13 +4,14 @@ using Tekla.Structures.Filtering;
 
 namespace UniversalFilter.Model
 {
-    internal abstract class ExpressionFilterGroup : IEnumerable
+    public abstract class ExpressionFilterGroup : IEnumerable
     {
         public ExpressionFilterGroup(SectionFilter startSection)
         {
             Sections = new List<SectionFilter>();
             this.Add(startSection);
         }
+
         protected List<SectionFilter> Sections { get; set; }
 
         public int Count

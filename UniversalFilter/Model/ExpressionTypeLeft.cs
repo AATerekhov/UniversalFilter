@@ -1,7 +1,7 @@
 ﻿
 namespace UniversalFilter.Model
 {
-    internal abstract class ExpressionTypeLeft
+    public abstract class ExpressionTypeLeft
     {
         public ExpressionTypeLeft(string category, string property, string localizationKey)
         {

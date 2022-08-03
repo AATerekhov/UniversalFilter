@@ -3,7 +3,7 @@ using Tekla.Structures.Filtering;
 
 namespace UniversalFilter.Model
 {
-    internal class SectionFilter
+    public class SectionFilter
     {
         public SectionFilter(bool isVisible, ExpressionTypeLeft left, OperatorType @operator, ExpressionRight right)
         {

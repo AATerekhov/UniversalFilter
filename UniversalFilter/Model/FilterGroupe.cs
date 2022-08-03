@@ -2,7 +2,7 @@
 
 namespace UniversalFilter.Model
 {
-    internal class ReferenceFilterGroupe : ExpressionFilterGroup
+    public class ReferenceFilterGroupe : ExpressionFilterGroup
     {
         public ReferenceFilterGroupe()
             : base(new SectionFilter(false, new ObjectTypeTypeLeft(), OperatorType.IS_EQUAL, new ReferenceGroupRight()))
@@ -10,7 +10,7 @@ namespace UniversalFilter.Model
 
         }
     }
-    internal class BoltFilterGroupe : ExpressionFilterGroup
+    public class BoltFilterGroupe : ExpressionFilterGroup
     {
         public BoltFilterGroupe()
             : base(new SectionFilter(new ObjectTypeTypeLeft(), OperatorType.IS_EQUAL, new BoltGroupRight()))
@@ -18,7 +18,7 @@ namespace UniversalFilter.Model
 
         }
     }
-    internal class PartFilterGroupe : ExpressionFilterGroup
+    public class PartFilterGroupe : ExpressionFilterGroup
     {
         public PartFilterGroupe()
             : base(new SectionFilter(new ObjectTypeTypeLeft(), OperatorType.IS_EQUAL, new PartGroupRight()))

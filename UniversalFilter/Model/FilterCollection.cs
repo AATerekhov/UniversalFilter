@@ -31,13 +31,13 @@ namespace UniversalFilter.Model
 
         public IEnumerator GetEnumerator() => Collection.GetEnumerator();
 
-        internal ExpressionFilterGroup GetGroupe(FilterGroupeType filterGroupeType)
+        public ExpressionFilterGroup GetGroupe(FilterGroupeType filterGroupeType)
         {
             return Collection[(int)filterGroupeType];
         }
     }
 
-    enum FilterGroupeType
+    public enum FilterGroupeType
     {
         Reference = 0,
         Bolt = 1,
